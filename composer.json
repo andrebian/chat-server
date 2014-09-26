@@ -1,0 +1,18 @@
+{
+    "name": "andrebian/chat",
+    "description": "Server de Chat criado com Ratchet",
+    "authors": [
+        {
+            "name": "Andre Cardoso aka andrebian",
+            "email": "andrecardosodev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Chat": "src"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "0.3.*"
+    }
+}
